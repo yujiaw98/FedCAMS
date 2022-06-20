@@ -46,3 +46,15 @@ The default values for various paramters parsed to the experiment are given in `
 ```--optimizer:``` Default: 'fedavg'. Options: 'fedadam', 'fedams'.
 
 ```--compressor:``` Compression strategy. Default: 'sign'. Options: 'topk64', 'topk128', 'topk256'.
+
+## Citation
+Please check our paper for technical details and full results.
+```
+@article{wang2022communication,
+  title={Communication-Efficient Adaptive Federated Learning},
+  author={Wang, Yujia and Lin, Lu and Chen, Jinghui},
+  journal={arXiv preprint arXiv:2205.02719},
+  year={2022}
+}
+```
+
